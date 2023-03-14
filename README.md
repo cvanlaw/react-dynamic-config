@@ -4,3 +4,7 @@ An example of how to dynamically inject and use config in a react app. To run th
 1. Build the container image e.g. `docker build . -t react-dynamic-config`
 2. Set a value for the config variable e.g. `export APP_MESSAGE='Hello, World!'`
 3. Run the container image e.g. `docker run -e APP_MESSAGE --rm -p 8080:80 --name react-dynamic-config react-dynamic-config`
+
+## References
+
+`Dockerfile` and `nginx.conf` from [awesome-compose](https://github.com/docker/awesome-compose/tree/master/react-nginx)
