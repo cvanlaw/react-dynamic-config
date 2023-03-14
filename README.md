@@ -7,7 +7,7 @@ An example of how to dynamically inject and use config in a react app. To run th
 
 ## How It Works
 
-[src/Message.js] uses the `fetch` api to retrieve the contents of `config.json`. `config.json` is built at container start via
+[src/Message.js](src/Message.js) uses the `fetch` api to retrieve the contents of `config.json`. `config.json` is built at container start via
 `jq`. The value of the message is set as an environment variable named `APP_MESSAGE` on the container so that an entrypoint
 script can retrieve this value for placement in `config.json`.
 
